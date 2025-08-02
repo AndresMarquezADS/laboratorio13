@@ -1,0 +1,204 @@
+/*Estilos generales*/
+body {
+
+      background-color: #e9ebde; /* fondo azul claro */
+      font-family: Arial, Helvetica, sans-serif, serif;
+      background-color: #477cf0;
+      margin: 0;
+      padding: 0;
+      font-size: 18px; /*Aumenta el tamañno base */
+      line-height: 1.6; /*Interlineado -Mejora la lectura */
+    
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        color: #e2e4ee; /*color titulos h1*/
+    
+
+    }
+
+    h2 {
+        color: #253db6; /*color titulos h2*/
+
+
+    }
+
+    h3 {
+        color: #e0e1e9; /*color titulos h2*/
+
+
+    }
+
+
+        /* CENTRAR FORMULARIO */
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* centra horizontalmente */
+    padding: 20px;
+    background-color: #92a9f3; /* opcional */
+    border-radius: 10px;        /* opcional */
+    box-shadow: 0 0 10px #b121211a; /* opcional */
+     
+}
+
+
+/* Dar estilo al formulario para mejor presentación */
+form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    width: auto;
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+    
+
+
+
+    #indice {   /* Estilos específicos para el elemento con este ID="indice" */
+        color: #000000;   
+        background-color: #92a9f3; /* Un tono de azul */
+        font-size: 18px;   
+        padding: 10px;   
+        border-radius: 15px;
+
+    }
+
+
+
+    #acerca {   /* Estilos específicos para el elemento con este ID"acerca" */
+        color: #000000;   
+        background-color: #92a9f3; /* Un tono de azul */
+        font-size: 18px;   
+        padding: 10px;   
+        border-radius:15px; 
+}    
+
+#experiencia {   /* Estilos específicos para el elemento con este ID="studios" */
+        color: #000000;   
+        background-color: #92a9f3; /* Un tono de azul */
+        font-size: 18px;   
+        padding: 10px;   
+        border-radius: 15px; 
+}
+#estudios {   /* Estilos específicos para el elemento con este ID="estudios" */
+        color: #000000;   
+        background-color: #92a9f3; /* Un tono de azul */
+        font-size: 18px;   
+        padding: 10px;   
+        border-radius: 15px;
+        
+}
+
+.tabla_estudios {
+    background-color: #76a0d6; /*con la <table class="tabla-estudios" border="5"> en el html
+} se da color a la tabla estudios citando con (.tabla_estudios) aquí*/
+    border: 5px solid #12629b; /* se cambia el color  del borde */
+  border-collapse: collapse;
+  box-shadow: 5px 5px 5px #333; /* Opcional: sombra externa */ 
+ 
+}
+
+    
+#referencias {   /* Estilos específicos para el elemento con este ID="referencias" */
+        color: #000000;   
+        background-color: #92a9f3; /* Un tono de azul */
+        font-size: 18px;   
+        padding: 10px;   
+        border-radius: 15px; 
+}
+
+
+.referencias{
+    background-color: #76a0d6; /*con la <table class="referencias" border="5"> en el html
+se da color a la tabla estudios citando con (.referencias) aquí*/
+border: 5px solid #12629b; /* se cambia el color  del borde */
+  border-collapse: collapse;
+  box-shadow: 5px 5px 5px #333; /* Opcional: sombra externa */ 
+ 
+}
+
+        
+/*Estilo del encabezado de pie de página*/
+header, footer {
+    background-color: #1242ee; /*fondo encabezado*/
+    color:white; /*Letra*/
+    text-align: center; /*Centrado*/
+    padding: 10px;
+    border-radius: 15px; /*agrega borde redondo*/
+    
+
+}
+
+/*Estilo de mi clase foto de pérfil*/
+.foto-perfil {
+    width: 125px;
+    height: auto;
+    border-radius: 8px;
+    border: 4px solid #76a0d6;
+    display: inline-block;
+    /*Alineación izquiera sin centrar*/
+    margin: 0;
+     float: left;
+
+
+}
+
+/*Cuadro de las listas ul*/
+ul { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #92a9f3;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    
+
+
+}
+
+
+/*Elementos principales del menú*/
+
+
+/*Efecto hover para los enlaces principales*/
+ul li a:hover {
+    background-color: #38b0f5;
+
+}
+
+
+.bloque-tabla {
+  width: 800px;
+  margin: auto;
+}
+
+
+
+footer {
+  background-color: #1242ee; /* mismo color de los h2 o header si lo deseas */
+  color: #e2e4ee; /* texto claro */
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 10;
+  width: 100%;
+}
+
+
+
