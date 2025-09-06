@@ -8,28 +8,34 @@
 </head>
 <body>
     <section class="calculadora">
-  <input type="number" id="num1" placeholder="Número 1">
-  <input type="number" id="num2" placeholder="Número 2">
-  <button onclick="calcular()">Calcular Todo</button>
-  <button onclick="realizarOperacion('suma')">Sumar</button>
-  <button onclick="realizarOperacion('resta')">Restar</button>
-  <button onclick="realizarOperacion('multiplicacion')">Multiplicar</button>
-  <button onclick="realizarOperacion('division')">Dividir</button>
-  <p id="suma"></p>
-  <p id="resta"></p>
-  <p id="multiplicacion"></p>
-  <p id="division"></p>
-  <p id="resultado"></p>
-</section>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
 
+        <!-- Calculadora normal con botones -->
+        <button onclick="calcular()">Calcular Todo</button>
+        <button onclick="realizarOperacion('suma')">Sumar</button>
+        <button onclick="realizarOperacion('resta')">Restar</button>
+        <button onclick="realizarOperacion('multiplicacion')">Multiplicar</button>
+        <button onclick="realizarOperacion('division')">Dividir</button>
 
+        <p id="suma"></p>
+        <p id="resta"></p>
+        <p id="multiplicacion"></p>
+        <p id="division"></p>
+        <p id="resultado"></p>
+    </section>
 
-<footer>
-  <p>&copy; 2025 Andrés Márquez. Todos los derechos reservados.</p>
-</footer>
-    
+    <!-- Botón para abrir la calculadora interactiva con prompt -->
+    <section>
+        <button onclick="iniciarCalculadora()">Abrir calculadora interactiva</button>
+    </section>
 
-  <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 Andrés Márquez. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Archivos JS -->
+    <script src="script.js"></script> <!-- calculadora normal -->
+    <script src="script_interactivo.js"></script> <!-- calculadora con prompt -->
 </body>
-
 </html>
